@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SDN Stream Explorer · How a controller picks your video server</title>
+  <meta name="description" content="An interactive, animated walk through an SDN load balancer for video streaming.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-plane="both" data-kind="lesson">
+
+<header class="top">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="30" height="30"><path d="M16 4 27 10v12L16 28 5 22V10z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="3.2" fill="currentColor"/><path d="M16 4v9M5 22l8.4-4.6M27 22l-8.4-4.6" stroke="currentColor" stroke-width="1.6"/></svg>
+    </div>
+    <div>
+      <h1>SDN STREAM <em>EXPLORER</em></h1>
+      <p>HOW A CONTROLLER PICKS YOUR VIDEO SERVER</p>
+    </div>
+  </div>
+
+  <div class="planes" title="Which part of the network is at work in this step">
+    <span class="planes-label">AT WORK</span>
+    <span class="plane control">CONTROL PLANE</span>
+    <span class="plane data">DATA PLANE</span>
+  </div>
+
+  <div class="top-right">
+    <span class="keys">← → STEP &nbsp;·&nbsp; SPACE PAUSE</span>
+    <button id="btn-theme" class="btn icon" title="Light / dark" aria-label="Switch between light and dark theme">◐</button>
+  </div>
+</header>
+
+<main class="grid">
+  <aside class="panel chapters-panel">
+    <div class="panel-head"><h2>CHAPTERS</h2></div>
+    <div class="progress">
+      <div class="progress-top"><span>YOUR PROGRESS</span><b id="progress-pct">0%</b></div>
+      <div class="progress-track"><div id="progress-bar"></div></div>
+      <div class="progress-count" id="progress-count"></div>
+    </div>
+    <div id="chapters" class="chapters"></div>
+  </aside>
+
+  <section class="panel stage">
+    <svg id="net" viewBox="0 0 1000 590" preserveAspectRatio="xMidYMid meet" role="img"
+         aria-label="Network topology: nine clients, six switches, four video servers and the SDN controller"></svg>
+    <div id="charts" class="charts"></div>
+  </section>
+
+  <aside class="panel info">
+    <div class="panel-head"><h2>OVERVIEW</h2></div>
+    <div class="info-body">
+      <div id="info-kicker" class="kicker"></div>
+      <h3 id="info-title"></h3>
+      <p id="info-sub" class="sub"></p>
+      <div id="info-text" class="text"></div>
+      <div id="info-facts" class="facts"></div>
+      <div id="info-table" class="table"></div>
+      <div id="info-code" class="code-ref"></div>
+    </div>
+  </aside>
+
+  <section class="panel flow">
+    <div class="panel-head">
+      <h2 id="flow-title">PACKET FLOW</h2>
+      <div class="legend">
+        <span class="legend-item"><i class="sw ctrl"></i>OpenFlow</span>
+        <span class="legend-item"><i class="sw arp"></i>ARP</span>
+        <span class="legend-item"><i class="sw data"></i>Data</span>
+        <span class="legend-item"><i class="sw video"></i>Video</span>
+        <span class="legend-item"><i class="sw probe"></i>Probe</span>
+      </div>
+      <div class="controls">
+        <select id="speed" aria-label="Animation speed">
+          <option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option>
+        </select>
+        <button id="btn-prev" class="btn" aria-label="Previous step">◀</button>
+        <button id="btn-play" class="btn">❚❚ &nbsp;PAUSE</button>
+        <button id="btn-next" class="btn primary">NEXT &nbsp;▶</button>
+        <button id="btn-restart" class="btn" title="Back to the first step of this chapter">↺ &nbsp;RESTART</button>
+      </div>
+    </div>
+    <div id="flow-head" class="flow-head flow-row"><span>NO</span><span>TIME</span><span>FROM</span><span>TO</span><span>TYPE</span><span>INFO</span></div>
+    <div id="flow-body" class="flow-body"></div>
+  </section>
+</main>
+
+<script src="lessons.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

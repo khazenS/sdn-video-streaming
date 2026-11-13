@@ -1,0 +1,5 @@
+# Controller environment (Python 3.10). Install setuptools==57.5.0 first, see README.
+ryu==4.34
+eventlet==0.33.3
+dnspython==2.2.1
+networkx==3.4.2

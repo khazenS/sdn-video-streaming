@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<rect width="1000" height="470" rx="6" fill="#fdfefc" stroke="#5fa694"/>
+<text x="28.0" y="34.0" font-size="13" fill="#0b3a33" text-anchor="start" font-weight="600" letter-spacing="2">AVERAGE VIDEO QUALITY (kbps)</text>
+<text x="972.0" y="34.0" font-size="10.5" fill="#7c9c95" text-anchor="end" font-weight="400" >bar = mean of 5 runs · line = lowest and highest run · 5000 = everyone at 720p</text>
+<text x="28.0" y="64.0" font-size="11" fill="#3f6b63" text-anchor="start" font-weight="400" letter-spacing="1.5">FLASH CROWD · all 9 clients at once</text>
+<line x1="88.0" y1="74" x2="88.0" y2="212" stroke="#d7e5df"/>
+<text x="88.0" y="226.0" font-size="9.5" fill="#7c9c95" text-anchor="middle" font-weight="400" >0</text>
+<line x1="238.0" y1="74" x2="238.0" y2="212" stroke="#d7e5df"/>
+<text x="238.0" y="226.0" font-size="9.5" fill="#7c9c95" text-anchor="middle" font-weight="400" >2500</text>
+<line x1="388.0" y1="74" x2="388.0" y2="212" stroke="#d7e5df"/>
+<text x="388.0" y="226.0" font-size="9.5" fill="#7c9c95" text-anchor="middle" font-weight="400" >5000</text>
+<text x="28.0" y="93.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >hop</text>
+<path d="M88.0 80 h79.0 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-79.0 z" fill="#2a78d6"/>
+<line x1="167.9" y1="89" x2="175.9" y2="89" stroke="#fdfefc" stroke-width="5"/>
+<line x1="168.9" y1="89" x2="174.9" y2="89" stroke="#0b3a33" stroke-width="2"/>
+<text x="400.0" y="93.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >1384</text>
+<text x="28.0" y="120.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >load</text>
+<path d="M88.0 107 h196.0 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-196.0 z" fill="#2a78d6"/>
+<line x1="285.4" y1="116" x2="290.1" y2="116" stroke="#fdfefc" stroke-width="5"/>
+<line x1="286.4" y1="116" x2="289.1" y2="116" stroke="#0b3a33" stroke-width="2"/>
+<text x="400.0" y="120.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >3333</text>
+<text x="28.0" y="147.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >bw</text>
+<path d="M88.0 134 h215.6 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-215.6 z" fill="#2a78d6"/>
+<line x1="276.5" y1="143" x2="343.0" y2="143" stroke="#fdfefc" stroke-width="5"/>
+<line x1="277.5" y1="143" x2="342.0" y2="143" stroke="#0b3a33" stroke-width="2"/>
+<text x="400.0" y="147.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="700" >3660</text>
+<rect x="438.0" y="136" width="38" height="15" rx="2" fill="none" stroke="#0a9a6c"/>
+<text x="457.0" y="147.0" font-size="9" fill="#0a9a6c" text-anchor="middle" font-weight="400" letter-spacing="1">BEST</text>
+<text x="28.0" y="174.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >delay</text>
+<path d="M88.0 161 h117.4 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-117.4 z" fill="#2a78d6"/>
+<line x1="201.9" y1="170" x2="216.3" y2="170" stroke="#fdfefc" stroke-width="5"/>
+<line x1="202.9" y1="170" x2="215.3" y2="170" stroke="#0b3a33" stroke-width="2"/>
+<text x="400.0" y="174.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >2024</text>
+<text x="28.0" y="201.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >combo</text>
+<path d="M88.0 188 h186.6 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-186.6 z" fill="#2a78d6"/>
+<line x1="268.6" y1="197" x2="301.4" y2="197" stroke="#fdfefc" stroke-width="5"/>
+<line x1="269.6" y1="197" x2="300.4" y2="197" stroke="#0b3a33" stroke-width="2"/>
+<text x="400.0" y="201.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >3176</text>
+<text x="514.0" y="64.0" font-size="11" fill="#3f6b63" text-anchor="start" font-weight="400" letter-spacing="1.5">GRADUAL · one client every 3 s</text>
+<line x1="574.0" y1="74" x2="574.0" y2="212" stroke="#d7e5df"/>
+<text x="574.0" y="226.0" font-size="9.5" fill="#7c9c95" text-anchor="middle" font-weight="400" >0</text>
+<line x1="724.0" y1="74" x2="724.0" y2="212" stroke="#d7e5df"/>
+<text x="724.0" y="226.0" font-size="9.5" fill="#7c9c95" text-anchor="middle" font-weight="400" >2500</text>
+<line x1="874.0" y1="74" x2="874.0" y2="212" stroke="#d7e5df"/>
+<text x="874.0" y="226.0" font-size="9.5" fill="#7c9c95" text-anchor="middle" font-weight="400" >5000</text>
+<text x="514.0" y="93.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >hop</text>
+<path d="M574.0 80 h138.7 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-138.7 z" fill="#2a78d6"/>
+<line x1="705.4" y1="89" x2="723.4" y2="89" stroke="#fdfefc" stroke-width="5"/>
+<line x1="706.4" y1="89" x2="722.4" y2="89" stroke="#0b3a33" stroke-width="2"/>
+<text x="886.0" y="93.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >2378</text>
+<text x="514.0" y="120.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >load</text>
+<path d="M574.0 107 h249.7 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-249.7 z" fill="#2a78d6"/>
+<line x1="821.0" y1="116" x2="835.4" y2="116" stroke="#fdfefc" stroke-width="5"/>
+<line x1="822.0" y1="116" x2="834.4" y2="116" stroke="#0b3a33" stroke-width="2"/>
+<text x="886.0" y="120.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >4228</text>
+<text x="514.0" y="147.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >bw</text>
+<path d="M574.0 134 h262.3 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-262.3 z" fill="#2a78d6"/>
+<line x1="833.6" y1="143" x2="849.0" y2="143" stroke="#fdfefc" stroke-width="5"/>
+<line x1="834.6" y1="143" x2="848.0" y2="143" stroke="#0b3a33" stroke-width="2"/>
+<text x="886.0" y="147.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >4439</text>
+<text x="514.0" y="174.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >delay</text>
+<path d="M574.0 161 h223.5 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-223.5 z" fill="#2a78d6"/>
+<line x1="780.5" y1="170" x2="822.1" y2="170" stroke="#fdfefc" stroke-width="5"/>
+<line x1="781.5" y1="170" x2="821.1" y2="170" stroke="#0b3a33" stroke-width="2"/>
+<text x="886.0" y="174.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="400" >3791</text>
+<text x="514.0" y="201.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >combo</text>
+<path d="M574.0 188 h270.9 a4 4 0 0 1 4 4 v10 a4 4 0 0 1 -4 4 h-270.9 z" fill="#2a78d6"/>
+<line x1="839.2" y1="197" x2="853.4" y2="197" stroke="#fdfefc" stroke-width="5"/>
+<line x1="840.2" y1="197" x2="852.4" y2="197" stroke="#0b3a33" stroke-width="2"/>
+<text x="886.0" y="201.0" font-size="12" fill="#0b3a33" text-anchor="start" font-weight="700" >4581</text>
+<rect x="924.0" y="190" width="38" height="15" rx="2" fill="none" stroke="#0a9a6c"/>
+<text x="943.0" y="201.0" font-size="9" fill="#0a9a6c" text-anchor="middle" font-weight="400" letter-spacing="1">BEST</text>
+<line x1="28" y1="246" x2="972" y2="246" stroke="#d7e5df"/>
+<text x="28.0" y="276.0" font-size="13" fill="#0b3a33" text-anchor="start" font-weight="600" letter-spacing="2">WHERE THE 9 CLIENTS WENT (average per run)</text>
+<circle cx="560" cy="272" r="5" fill="#2a78d6"/>
+<text x="571.0" y="276.0" font-size="11" fill="#3f6b63" text-anchor="start" font-weight="400" >srv1</text>
+<circle cx="664" cy="272" r="5" fill="#eb6834"/>
+<text x="675.0" y="276.0" font-size="11" fill="#3f6b63" text-anchor="start" font-weight="400" >srv2</text>
+<circle cx="768" cy="272" r="5" fill="#1baf7a"/>
+<text x="779.0" y="276.0" font-size="11" fill="#3f6b63" text-anchor="start" font-weight="400" >srv3</text>
+<circle cx="872" cy="272" r="5" fill="#eda100"/>
+<text x="883.0" y="276.0" font-size="11" fill="#3f6b63" text-anchor="start" font-weight="400" >srv4</text>
+<text x="28.0" y="314.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >hop</text>
+<rect x="88.0" y="300" width="251.3" height="20" fill="#2a78d6"/>
+<text x="213.7" y="314.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >6.0</text>
+<rect x="341.3" y="300" width="124.7" height="20" fill="#eb6834"/>
+<text x="403.7" y="314.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.0</text>
+<text x="28.0" y="344.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >load</text>
+<rect x="88.0" y="330" width="116.2" height="20" fill="#2a78d6"/>
+<text x="146.1" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.8</text>
+<rect x="206.2" y="330" width="90.9" height="20" fill="#eb6834"/>
+<text x="251.7" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.2</text>
+<rect x="299.1" y="330" width="82.4" height="20" fill="#1baf7a"/>
+<text x="340.3" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.0</text>
+<rect x="383.6" y="330" width="82.4" height="20" fill="#eda100"/>
+<text x="424.8" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.0</text>
+<text x="28.0" y="374.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >bw</text>
+<rect x="88.0" y="360" width="48.7" height="20" fill="#1baf7a"/>
+<text x="112.3" y="374.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >1.2</text>
+<rect x="138.7" y="360" width="327.3" height="20" fill="#eda100"/>
+<text x="302.3" y="374.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >7.8</text>
+<text x="28.0" y="404.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >delay</text>
+<rect x="88.0" y="390" width="124.7" height="20" fill="#eb6834"/>
+<text x="150.3" y="404.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.0</text>
+<rect x="214.7" y="390" width="251.3" height="20" fill="#1baf7a"/>
+<text x="340.3" y="404.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >6.0</text>
+<text x="28.0" y="434.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >combo</text>
+<rect x="88.0" y="420" width="74.0" height="20" fill="#2a78d6"/>
+<text x="125.0" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >1.8</text>
+<rect x="164.0" y="420" width="116.2" height="20" fill="#eb6834"/>
+<text x="222.1" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.8</text>
+<rect x="282.2" y="420" width="133.1" height="20" fill="#1baf7a"/>
+<text x="348.8" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.2</text>
+<rect x="417.3" y="420" width="48.7" height="20" fill="#eda100"/>
+<text x="441.7" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >1.2</text>
+<text x="514.0" y="314.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >hop</text>
+<rect x="574.0" y="300" width="251.3" height="20" fill="#2a78d6"/>
+<text x="699.7" y="314.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >6.0</text>
+<rect x="827.3" y="300" width="124.7" height="20" fill="#eb6834"/>
+<text x="889.7" y="314.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.0</text>
+<text x="514.0" y="344.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >load</text>
+<rect x="574.0" y="330" width="124.7" height="20" fill="#2a78d6"/>
+<text x="636.3" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.0</text>
+<rect x="700.7" y="330" width="82.4" height="20" fill="#eb6834"/>
+<text x="741.9" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.0</text>
+<rect x="785.1" y="330" width="82.4" height="20" fill="#1baf7a"/>
+<text x="826.3" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.0</text>
+<rect x="869.6" y="330" width="82.4" height="20" fill="#eda100"/>
+<text x="910.8" y="344.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.0</text>
+<text x="514.0" y="374.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >bw</text>
+<rect x="574.0" y="360" width="57.1" height="20" fill="#1baf7a"/>
+<text x="602.6" y="374.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >1.4</text>
+<rect x="633.1" y="360" width="318.9" height="20" fill="#eda100"/>
+<text x="792.6" y="374.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >7.6</text>
+<text x="514.0" y="404.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >delay</text>
+<rect x="574.0" y="390" width="74.0" height="20" fill="#2a78d6"/>
+<text x="611.0" y="404.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >1.8</text>
+<rect x="650.0" y="390" width="133.1" height="20" fill="#eb6834"/>
+<text x="716.6" y="404.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.2</text>
+<rect x="785.1" y="390" width="150.0" height="20" fill="#1baf7a"/>
+<text x="860.1" y="404.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.6</text>
+<rect x="937.1" y="390" width="14.9" height="20" fill="#eda100"/>
+<text x="514.0" y="434.0" font-size="12" fill="#3f6b63" text-anchor="start" font-weight="400" >combo</text>
+<rect x="574.0" y="420" width="48.7" height="20" fill="#2a78d6"/>
+<text x="598.3" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >1.2</text>
+<rect x="624.7" y="420" width="82.4" height="20" fill="#eb6834"/>
+<text x="665.9" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.0</text>
+<rect x="709.1" y="420" width="116.2" height="20" fill="#1baf7a"/>
+<text x="767.2" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >2.8</text>
+<rect x="827.3" y="420" width="124.7" height="20" fill="#eda100"/>
+<text x="889.7" y="434.0" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="700" >3.0</text>
+</svg>

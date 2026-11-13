@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated video (run prepare_video.sh)
+video/
+*.m4s
+*.mp4
+*.mpd
+
+# Scratch output of quick experiment runs
+experiments/quick_test/
+experiments/test_results/
+
+# Raw per-run logs of the full experiment (summary.md and clients.csv are kept)
+experiments/results/*/
+experiments/results/experiment.log
